@@ -1,0 +1,56 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+hr {
+    border: 2px double darkblue;
+}
+main {
+    margin: 10px;
+    padding: 20px;
+    padding-top:10px;
+    background-color: aliceblue;
+    color:darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size:18px;
+    font-weight:lighter;
+}
+.copyright {
+    display:inline;
+    text-align: justify;
+    font-size: 10px;
+    color: darkblue;
+}
+
+footer > nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+footer > nav > a {
+    display: inline-block;
+    text-align:center;
+    padding:10px;
+    margin: 20px;
+    border: 2px dashed darkblue;
+    border-radius:15px;
+    height:30px;
+    color:darkblue;
+    font-weight:bolder;
+    background-color: aliceblue;
+}
+footer > nav > a:hover {
+    background-color: darkblue;
+    color: white;
+    text-decoration:none;
+}
+footer > nav > a:active {
+    color: darkblue;
+    text-decoration:underline;
+}
