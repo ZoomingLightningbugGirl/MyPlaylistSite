@@ -1,6 +1,14 @@
 body {
     background-color: lightblue;
 }
+
+.about h2:hover, .about p:hover {
+    background-color:rgb(211, 255, 211);
+    color:midnightblue;
+    font-weight:600;
+    font-size:1.1rem;
+}
+
 h1 {
     color: darkblue;
     text-align: center;
@@ -16,6 +24,27 @@ main {
     color:darkblue;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.genre-desc p:hover, .genre-desc h2:hover {
+    background-color: cornsilk;
+    line-height:2rem;
+    margin:10px;
+}
+
+ul li {
+    font-size:1rem;
+    font-weight:400;
+    padding:3px;
+    line-height:1.2rem;
+    margin:10px;
+}
+
+ul li:focus, ul li:hover {
+    font-size:1.1rem;
+    line-height:1.5rem;
+    background-color:cornsilk;
+}
+
 p {
     font-size:18px;
     font-weight:lighter;
